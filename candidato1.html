@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candidato 1</title>
     <style>
+        .content {
+    max-width: 800px; /* Ancho limitado para el texto */
+    margin: 20px auto; /* Centra el contenido */
+    padding: 20px;
+    background-color: white; /* Fondo blanco para resaltar texto */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+.content h1 {
+    font-size: 28px;
+    color: #222;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content p {
+    margin: 10px 0;
+    text-align: justify; /* Texto justificado */
+}
+.content p span {
+    font-weight: bold; /* Resalta palabras clave */
+    color: #555;
+}
+.content .highlight {
+    background-color: #eef6fc; /* Fondo suave para destacar */
+    padding: 10px;
+    border-left: 4px solid #007bff; /* Barra de color para énfasis */
+    margin: 20px 0;
+}
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -23,16 +52,43 @@
         .content {
             padding: 20px;
         }
+        
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .header {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+    }
+    .header a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .content {
+        padding: 20px;
+    }
+    .candidate-photo {
+        max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+        height: auto;   /* Mantendrá las proporciones */
+        border-radius: 10px; /* Esquinas redondeadas (opcional) */
+        display: block;
+        margin: 20px auto; /* Centra la imagen horizontalmente */
+    }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <a href="index.html">Volver a la Página Principal</a>
+        <a href="paginaweb.html">Volver a la Página Principal</a>
     </div>
 
     <div class="content">
         <h1>Candidato 1</h1>
+        <img src="daniel-noboa-.jpg" alt="Candidato 1" class="candidate-photo">
         <p>Daniel Noboa es un empresario y político ecuatoriano-estadounidense nacido el 30 de noviembre de 1987. Hijo del empresario Álvaro Noboa, asumió la presidencia de Ecuador en noviembre de 2023, convirtiéndose en el mandatario más joven del país. Estudió Administración de Empresas en Harvard y antes de ingresar a la política, lideró la empresa DNA Entertainment Group. Fue elegido asambleísta en 2021 y ganó las elecciones presidenciales en 2023 con el Movimiento Acción Democrática Nacional (ADN). Se ha comprometido a mejorar la seguridad, la educación y el empleo en Ecuador.</p>
     </div>
 
